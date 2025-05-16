@@ -1,0 +1,26 @@
+ /* *{  */
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+ /* } */
+ 
+ body{
+    font-size: 24px;
+
+  }
+
+  #first , #second, #third{
+    color:red
+
+  }
+  #second{  
+    color: blue; 
+
+  }
+  .purple{
+    color: purple;
+/* font-family: 'Courier New', Courier, monospace; */
+}
+.highlight{
+    background-color: bisque;
+    font-size: medium;
+    font-style: italic;
+}
