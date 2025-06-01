@@ -5,3 +5,35 @@
     box-sizing: border-box;
 
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+   color: brown;
+    display:inline-block
+    ;
+    width: 40px;
+}
+a{
+    width: 40px;
+    margin: 40px;
+
+}
+img{
+    width: 100px;
+    display: none;
+}
+li{
+    display: inline;
+}
+ul{
+    list-style: none;
+    text-align: end;
+    padding: 30px;
+    background-color: rgb(146, 128, 162);
+    color: white;
+}
+li:hover{
+    color: blueviolet;
+    cursor: pointer  ;
+}
