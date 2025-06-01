@@ -29,11 +29,9 @@ p{
     font-family: 'robboto'sans-serif;
     font-size: 1.2rem;
     color: var(--secondary-text-color);
-    line: height 1.8rem; 
-
+    line-height: 1.8rem;
 }
 a{
-    text-decoration: none
-    ;
+    text-decoration: none;
     display: inline-block;
 }
