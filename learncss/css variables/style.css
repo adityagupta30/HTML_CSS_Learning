@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global variable */
+:root{
+    --primary-text-color:#222;
+    --secondary-text-color:#444;
+    --card-background-color:white;
+    --background-color:#eee;
+    --default-margin:30px;
+}
+.dark{
+    --primary-text-color:#fff;
+    --secondary-text-color:#ddd;
+    --card-background-color:#333;
+    --background-color:#111;
+}
+
+.container{
+    padding: var(--default-margin);
+    min-height: 100vh; 
+    background-color: var(--background-color);
+
+}
+  h1 {
+
+    text-align: center;
+   
+    color: var(--primary-text-color);
+}
+.box {
+    /* using double hyphen(--) for variable */
+     /* --my-var:yellow; */
+    padding: 20px;
+    background-color: var(--card-background-color);
+    margin-block: 20px;
+    border-radius:20px ;
+}
+
+p{
+    color: var(--secondary-text-color);
+}
+ h2{
+   color: var(--primary-text-color);
+    margin-bottom: 20px;
+    background-color: var(--my-var);
+}
+@media screen and (min-width:800px) {
+    .container{
+        --my-var:pink;
+    }
+}
