@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(111, 111, 222);
+    margin: 80px auto;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(45deg);
+    transform: 0.5s ease;
+transform-origin:100px 200px;
+
+}
+.box:hover{
+    transform: rotate(45deg);
+}
